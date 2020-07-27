@@ -8,7 +8,7 @@ import block from '../img/block.png'
    let imgButtonOn = <div className="buttonImg typeOn">ON</div>;
    let imgButtonOff = <div className="buttonImg typeOff">OFF</div>;
    if (sites !== 0){
-     sites = sites + ' sites';
+     sites = sites + ' site';
    }
    if (status === 'blocked') {
     status = blocking;
